@@ -5,8 +5,9 @@ import './Title.css'
 const Title = () => {
     console.log(image)
     return (
-        <div>
-            <img className="title_image" src={image} alt="Image of sunset"></img>
+        <div className="overlay-image">            
+            <img className="title-image" src={image} alt="Image of sunset"></img>
+            <div className="text">"The only thing I love more then building a beautiful webpage is a beautiful Colorado Sunset" -Adam Hoffman</div>
         </div>
     )
 }
